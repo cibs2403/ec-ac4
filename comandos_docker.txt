@@ -1,0 +1,6 @@
+    1  git clone https://github.com/cibs2403/ec-ac4.git
+    2  cd ec-ac4
+    3  docker image build -t fibonacci .
+    4  docker run -p 5001:5000 -d fibonacci
+    5  docker ps
+    6  history
