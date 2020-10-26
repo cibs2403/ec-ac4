@@ -1,20 +1,20 @@
 import os
 from flask import Flask, jsonify, request
 
-app = Flasck (_name_)
+app = Flask (__name__)
 
 @app.route('/')
 def nao_entre_em_panico():
     prox = 1
     ant = 0
     maximo = 50
-    n = 0
+    found = 0
     resposta = "0 -"
-    while (n < maximo):
+    while (found < maximo):
         fibo = prox
         prox = prox + ant
         ant = fibo
-        n = n+1
+        found = found+1
         resposta+= str(prox) + "-"
 
 
